@@ -19,9 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={nunitoSans.className}>
-        <main className="bg-gray-100 min-h-screen">
+        <main className="bg-gray-100 min-h-screen flex flex-col items-center">
           <nav className="w-full bg-white h-16 flex items-center justify-center">
-            <section className="container flex item-center gap-3">
+            <section className="container flex items-center gap-3">
               <Image src="/logo.svg" alt="Logo da aplicação - emoji de globo" width={48} height={48} />  
               <h1 className="font-bold text-2xl">Lista de países</h1>
             </section>
